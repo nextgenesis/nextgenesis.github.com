@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>{{ page.title }}</title>
+  <link rel='stylesheet' href='/css/style.css' type='text/css' media="screen, projection">
+  <link rel='shortcut icon' href='/images/favicon.ico'>
+</head>
+<body id='{{ page.id }}'>
+
+<div id='wrap'>
+
+  <div id='head'>
+    <h1><a href='/'><img src="/images/logo.gif" height='59' width='86' alt="">Next Genesis</a></h1>
+    <ul>
+      <li><a href='/intro'>README</a></li>
+      <li><a href='/discussions'>Discussions</a></li>
+      <li><a href='/who'>Who's Here?</a></li>
+      <li><a class="out" href='http://github.com/sinatra/sinatra'>Code</a></li>
+      <li><a href='/about'>About</a></li>
+    </ul>
+  </div>
+
+  <div id='content'>
+    {{ content }}
+  </div>
+
+  <div id='foot'>
+  </div>
+
+</div>
+
+<a href="http://github.com/nextgenesis"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png" alt="Fork me on GitHub" /></a>
+
+<!-- Google Analytics -->
+</body>
+</html>
